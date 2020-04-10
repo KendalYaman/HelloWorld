@@ -13,8 +13,6 @@ void forkexample()
     	//fgets(word, MAX_NAME_SZ, stdin);`
     	scanf("%s",word);
     	printf("Voici: %s\n", word);
-    	scanf("%s",word);
-    	printf("Voici2: %s\n", word);
   
     // parent process because return value non-zero. 
     }else{
